@@ -59,10 +59,10 @@ ul {
     list-style-type: none;  
     }  
 
-ul::first-line{
+ul li:first-of-type{
     color: blue;
 }
 
-#listli li:last-child{
-    color: red;
+ul li:last-of-type{
+    color: green;
 }
